@@ -1,0 +1,224 @@
+img {
+    max-width: 100%;
+}
+
+.sec-bg {
+    background-color: #f9f9ff;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+.custom-container{
+    width: 900px;
+    margin: auto;
+}
+
+.full-width{
+    width: 1550px;
+    margin: auto;
+}
+header{
+    flex-grow: 1;
+}
+
+.header-logo img{
+    max-width: 80px;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+
+}
+.menu ul li{
+    list-style: none;
+    position: relative;
+    
+}
+.menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu ul li::before{
+    content: "";
+    height: 2px ;
+    width: 75%;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    right: 13%;
+    transform: scaleY(1);
+    transition: .4s;
+}
+.main-content .full-width{
+    display: flex;
+}
+.main-content .main-div{
+    width: 70%;
+    padding: 40px 0;
+}
+.main-content .sidebar{
+    width: 400px;
+    background: #ddd;
+    border-left: 3px solid red;
+    margin-left:35px ;
+}
+.main-content .right-side{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px;
+    background: #E0E0E0;
+    border-left: 2px solid red;
+}
+
+.first-design{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-design div{
+    height: 250px;
+    width: 300px;
+    border: 1px solid #018101; 
+}
+.first-design .second-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-design .first-div div{
+    height: 60px;
+    width: 60px;
+    text-transform: uppercase;
+    background: red;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;;
+}
+.first-design .second-div div{
+    height: 60px;
+    width: 60px;
+    text-transform: uppercase;
+    background: red;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.first-design .therd-div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.first-design .therd-div div{
+    height: 60px;
+    width: 60px;
+    text-transform: uppercase;
+    background: red;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center; 
+}
+.second-design{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-design div{
+    padding: 20px;
+    width: 270px;
+    border: 1px solid #018101; 
+    margin-top: 30px;    
+}
+.second-design .second-div{
+    flex-basis: 40%;
+}
+
+.therd-design{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.therd-design div {
+    width: 330px;
+    border: 1px solid #018101;
+    margin-top: 30px;
+    padding: 30px 0;
+}
+.therd-design div ul{
+    color: #fff;
+    display: flex;    
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.therd-design div ul li{
+    list-style: none;
+    padding: 5px 6px;
+    background: red;
+    border: 1px solid #018101;
+}
+.therd-design .first-div ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.therd-design .second-div ul{
+    padding: 0 30px;
+
+}
+.therd-design .second-div ul li{
+    flex-grow: 1;
+    align-items: end;
+    display: flex;
+    
+}
+.therd-design .therd-div ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    height: 100%;  
+}
+.therd-design .therd-div ul li.fst{
+    display: flex;
+    align-self: flex-start;
+}
+.therd-design .therd-div ul li.snd{
+    display: flex;
+    align-self: center;
+}
+.therd-design .therd-div ul li.trd{
+    display: flex;
+    align-self: flex-end;
+}
+.footer-end ul{
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.footer-end ul li {
+    list-style: none;
+    position: relative;
+}
+.footer-end ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+}
+.footer-end ul li a::after{
+    content: "";
+    height: 2px ;
+    width: 75%;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    left: 13%;
+}
